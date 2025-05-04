@@ -29,7 +29,7 @@ export default function Home() {
         <Image src="/images/pub-background.png" alt="Pub atmosphere" fill className="object-cover" priority />
         <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-4">
           <div className="bg-amber-900/70 p-6 rounded-lg backdrop-blur-sm max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold text-amber-100 mb-4 drop-shadow-lg">
+            <h1 className="text-4xl md:text-5xl text-amber-100 mb-4 drop-shadow-lg">
               Výprachtický festival piva
             </h1>
             <p className="text-xl text-amber-200 font-medium">z regionálních minipivovarů</p>
@@ -66,7 +66,7 @@ export default function Home() {
               />
             </div>
             <div className="flex-1">
-              <h2 className="text-2xl font-bold text-amber-800 mb-6">Informace o akci</h2>
+              <h2 className="text-2xl text-amber-800 mb-6">Informace o akci</h2>
 
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
@@ -153,7 +153,7 @@ export default function Home() {
             <Image src="/images/hops.png" alt="Chmel" width={200} height={200} className="max-w-full h-auto" />
           </div>
 
-          <h2 className="text-2xl mb-6 text-amber-100 font-bold">Program festivalu</h2>
+          <h2 className="text-2xl mb-6 text-amber-100">Program festivalu</h2>
 
           <div className="grid md:grid-cols-2 gap-8 relative z-10">
             <div>
@@ -199,7 +199,7 @@ export default function Home() {
               />
             </div>
             <div className="flex-1">
-              <h2 className="text-2xl text-amber-800 mb-4 flex items-center gap-2 font-bold">
+              <h2 className="text-2xl text-amber-800 mb-4 flex items-center gap-2">
                 <Fire className="h-6 w-6 text-amber-600" />
                 Soutěž o nejlepší kotlíkový guláš
               </h2>
@@ -220,7 +220,7 @@ export default function Home() {
 
         {/* Beer gallery */}
         <div className="my-12">
-          <h2 className="text-2xl text-amber-800 mb-6 text-center font-bold">Těšte se na skvělá piva</h2>
+          <h2 className="text-2xl text-amber-800 mb-6 text-center">Těšte se na skvělá piva</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="aspect-square relative rounded-lg overflow-hidden shadow-md">
               <Image

@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Import custom fonts */
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab:wght@400;600;700&display=swap");
 
 @layer base {
   :root {
@@ -20,11 +18,11 @@
   h4,
   h5,
   h6 {
-    font-family: "Alfa Slab One", serif;
+    font-family: var(--font-alfa-slab-one);
   }
 
   body {
-    font-family: "Roboto Slab", serif;
+    font-family: var(--font-roboto-slab);
   }
 }
 

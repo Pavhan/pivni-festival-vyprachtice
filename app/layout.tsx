@@ -1,6 +1,20 @@
 import type React from "react"
-import type { Metadata } from "next"
-import "./globals.css"
+
+import './globals.css';
+import { Alfa_Slab_One, Roboto_Slab } from 'next/font/google';
+import type { Metadata } from 'next';
+
+const alfaSlabOne = Alfa_Slab_One({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-alfa-slab-one',
+});
+
+const robotoSlab = Roboto_Slab({
+  weight: ['400', '600', '700'],
+  subsets: ['latin'],
+  variable: '--font-roboto-slab',
+});
 
 export const metadata: Metadata = {
   title: "Výprachtický festival piva z regionálních minipivovarů",
@@ -18,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="cs">
-      <body className="font-sans">
+      <body  className={`${alfaSlabOne.variable} ${robotoSlab.variable}`}>
         <div id="fb-root"></div>
         {children}
         <script
