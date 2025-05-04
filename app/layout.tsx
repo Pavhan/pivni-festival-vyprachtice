@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="cs">
-      <body>
+      <body className="font-sans">
         <div id="fb-root"></div>
         {children}
         <script
